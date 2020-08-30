@@ -1,0 +1,139 @@
+body {
+  // background-color: #251002;
+  background: #251002 url("./bg.png");
+}
+.flex {
+  display: flex;
+
+  .navigation {
+    padding: 20px;
+    div {
+      text-align: left;
+      margin: 10px;
+      a {
+        font-size: 24px;
+        color: #251002;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    width: calc(200px + 10vw);
+    min-width: 100px;
+    height: 100vh;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    border-radius: 36px;
+    margin: 10px;
+  }
+}
+
+.menu {
+  .addItemLayout {
+    .close {
+      color: white;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 50px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      width: 100px;
+      color: white;
+      font-size: 18px;
+    }
+    background-color: rgba($color: #000, $alpha: 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      .delete {
+        text-align: right;
+        margin: 0 30px 10px 10px;
+        cursor: pointer;
+      }
+      div {
+        display: inline-block;
+        background-color: #c4c4c4;
+        width: 150px;
+        border-radius: 7px;
+      }
+      background-color: rgba($color: #fff, $alpha: 0.5);
+      color: #251002;
+      font-size: 18px;
+      margin: 20px;
+      border-radius: 27px;
+      padding: 20px 10px;
+      height: 400px;
+      width: 250px;
+    }
+  }
+}
+
+.headline {
+  span {
+    cursor: pointer;
+  }
+  color: white;
+  font-size: 64px;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.orders {
+  display: flex;
+  flex-wrap: wrap;
+  .order {
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    color: #251002;
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 27px;
+    padding: 20px 10px;
+    // height: 400px;
+    width: 250px;
+  }
+}
+
+.button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 62px;
+  background: transparent;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+}
+
+.intro {
+  margin: 20px 50px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  .login-form {
+    background: rgba($color: #251002, $alpha: 0.8);
+    border-radius: 27px;
+    padding: 30px;
+  }
+}
+
+.content {
+  width: 100%;
+}
